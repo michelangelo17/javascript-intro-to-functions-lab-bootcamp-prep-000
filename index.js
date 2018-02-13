@@ -13,10 +13,14 @@ function logWhisper(string) {
 function sayHiToGrandma(string) {
   var uppercase = "HELLO!"
   var lowercase = "hello!"
+  var mixedCase = "Hi there!"
   if (string.toUpperCase() === uppercase)
   return "YES INDEED!"
-  else if (string === "I love you.")
+  else if (string.toLowerCase() === lowercase)
+  return "I can't hear you!"
+  else if (string.mixedCase() === mixedCase)
+  return "I can't hear you!!"
+  else if (string.mixedCase() === mixedCase)
+  else 
   return "I love you, too."
-  else (string.toLowerCase() === lowercase)
-  return "YES INDEED!"
 }
